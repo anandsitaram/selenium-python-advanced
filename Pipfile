@@ -11,6 +11,7 @@ xlwt = "*"
 xlutils = "*"
 selenium = "*"
 webdriver_manager = "*"
+unittest = "*"
 
 
 [requires]
