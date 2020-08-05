@@ -1,3 +1,4 @@
 /env/
 /virtualenvs/
 /.idea/
+/.pytest_cache/

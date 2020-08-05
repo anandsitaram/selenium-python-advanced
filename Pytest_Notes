@@ -1,0 +1,17 @@
+Naming conventions:-
+• File names should start or end with “test”, as in
+test_example.py or example_test.py
+• Class name should start with “Test”, as in TestExample
+• Test method names should start with “test_”, as in
+test_example
+
+
+-s ->prints statements
+-v- > verbose
+py.test - > Run all tests whose file name begins or ends with 'test' and method name begins or ends with 'test'.
+py.test -v -s - > Same as above but prints statements
+py.test -v -s <filename with path> ->Runs specific files Example ->py.test -v -s pytestDemo/Demo03_Fixtures_test.py
+py.test -s <filename with path>::<Test Method> ->run specific test method under the file Example - >py.test -s pytestDemo/Demo04_SetUp_Yield_Fixtures_test.py::test_methodG
+
+
+

@@ -12,7 +12,8 @@ xlutils = "*"
 selenium = "*"
 webdriver_manager = "*"
 unittest = "*"
-
+pytest = "*"
+pytest-ordering = "*"
 
 [requires]
 python_version = "3.8"
